@@ -46,11 +46,11 @@ public:
 		year = ty;
 		month = tm;
 		day = td;
-		cout << "原生类构造函数" << year << "年" << month << "月" << day << "日" << endl;
+		cout << "派生类构造函数" << year << "年" << month << "月" << day << "日" << endl;
 	}
 	~CMydate()
 	{
-		cout << "原生析构造函数" << year << "年" << month << "月" << day << "日" << endl;
+		cout << "派生析构造函数" << year << "年" << month << "月" << day << "日" << endl;
 	}
 };
 int main()
